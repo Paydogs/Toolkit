@@ -21,5 +21,8 @@ let package = Package(
         .target(
             name: "Toolkit"),
 
+    ],
+    swiftLanguageVersions: [
+        .v5
     ]
 )
