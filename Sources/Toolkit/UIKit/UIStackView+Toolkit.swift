@@ -1,5 +1,5 @@
 //
-//  UIStackView+Extensions.swift
+//  UIStackView+Toolkit.swift
 //  Toolkit
 //
 //  Created by Andras Olah on 2025. 12. 17..
