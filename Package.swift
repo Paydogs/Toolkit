@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "Toolkit",
     platforms: [
-        .iOS(.v13),
+        .iOS(.v14),
         .macOS(.v14)
     ],
     products: [
