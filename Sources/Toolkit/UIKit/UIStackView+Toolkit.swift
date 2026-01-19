@@ -5,6 +5,7 @@
 //  Created by Andras Olah on 2025. 12. 17..
 //
 
+#if canImport(UIKit)
 import UIKit
 
 extension UIStackView {
@@ -22,3 +23,4 @@ extension UIStackView {
         view.removeFromSuperview()
     }
 }
+#endif
