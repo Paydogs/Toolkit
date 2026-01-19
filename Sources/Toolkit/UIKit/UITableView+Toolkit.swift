@@ -5,6 +5,7 @@
 //  Created by Andras Olah on 2026. 01. 07..
 //
 
+#if canImport(UIKit)
 import UIKit
 
 public extension UITableViewCell {
@@ -26,3 +27,4 @@ public extension UITableView {
         return cell
     }
 }
+#endif

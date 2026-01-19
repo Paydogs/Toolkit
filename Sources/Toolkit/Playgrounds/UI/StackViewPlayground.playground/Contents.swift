@@ -1,10 +1,8 @@
-//: A UIKit based Playground for presenting user interface
-  
 import UIKit
 import Toolkit
 import PlaygroundSupport
 
-class MyViewController : UIViewController {
+class ViewController : UIViewController {
     override func loadView() {
         let view = UIView()
         view.backgroundColor = .white
@@ -26,8 +24,8 @@ class MyViewController : UIViewController {
         let label2 = UILabel()
         label2.text = "Line 2"
         stackView.addArrangedSubview(label2)
-        stackView.addArrangedSubview(UIView.emptyView())
+//        stackView.addArrangedSubview(UIView.emptyView())
     }
 }
 // Present the view controller in the Live View window
-PlaygroundPage.current.liveView = MyViewController()
+PlaygroundPage.current.liveView = ViewController()
