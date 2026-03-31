@@ -10,6 +10,7 @@ import Toolkit
 import UIKit
 import SwiftUI
 
+@Suite("Extensions")
 struct ColorUtilsTests {
     // MARK: UIKit tests
     @Test func test_uiKit_initFromHex() async throws {

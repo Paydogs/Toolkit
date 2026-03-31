@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "Toolkit",
     platforms: [
-        .iOS(.v14),
+        .iOS(.v16),
         .macOS(.v14)
     ],
     products: [
@@ -25,6 +25,6 @@ let package = Package(
             dependencies: ["Toolkit"]),
     ],
     swiftLanguageModes: [
-        .v5
+        .v6
     ]
 )
